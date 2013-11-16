@@ -1,0 +1,11 @@
+# Basic info
+name: けちょろぐ
+domain: blog.kechol.net
+author: Kazuyuki SUZUKI
+
+# Format
+markdown: redcarpet
+pygments: true
+encoding: UTF-8
+permalink: /:year/:month/:day/:title
+safe: false

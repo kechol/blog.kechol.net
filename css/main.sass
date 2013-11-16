@@ -1,0 +1,136 @@
+---
+---
+
+@import '_syntax.sass'
+
+/****************************************************************************
+/*
+ */* Common
+ */*
+ */****************************************************************************
+
+/* Global Reset
+
+*
+  margin: 0
+  padding: 0
+
+html
+  height: 100%
+
+body
+  height: 100%
+  color: #262626
+  background-color: #fffcff
+  font: 18px Helvetica, Arial, sans-serif
+  text-align: center
+
+article, header, footer, section
+  display: block
+
+h1, h2, h3, h4, h5, h6
+  font-size: 100%
+
+h1
+  margin-bottom: 1em
+
+p
+  margin: 1em 0
+
+a
+  color: #fec000
+  &:hover
+    color: #ffd300
+
+/****************************************************************************
+/*
+ */* Home
+ */*
+ */****************************************************************************
+
+.posts
+  list-style-type: none
+  margin-bottom: 2em
+  li
+    line-height: 1.8em
+  span
+    margin: 0 1em 0 0
+    display: inline-block
+    color: #aaa
+    font-family: Monaco, "Courier New", monospace
+    font-size: 80%
+
+/****************************************************************************
+/*
+ */* Site
+ */*
+ */****************************************************************************
+
+.site
+  text-align: justify
+  width: 42em
+  margin: 3em auto 2em
+  line-height: 1.5em
+
+.header a
+  font-weight: bold
+  text-decoration: none
+
+.title
+  display: inline-block
+  margin-bottom: 2em
+  font-size: .9em
+  a
+    color: #aaacaa
+    &:hover
+      color: #ccc
+
+.footer
+  font-size: 80%
+  color: #ccc
+  border-top: 1px solid #eee
+  margin-top: 2em
+  overflow: hidden
+  .copyright
+    float: right
+    margin-left: 3em
+    a
+      color: #aaacaa
+      text-decoration: none
+      &:hover
+        color: #ccc
+
+/****************************************************************************
+/*
+ */* Posts
+ */*
+ */****************************************************************************
+
+h1
+  margin-bottom: .5em
+
+.meta
+  margin: .5em 0 1em
+  color: #ccc
+  font-size: .8em
+
+.post
+  p
+    word-spacing: 1px
+    line-height: 1.8
+
+  pre
+    border: 1px solid #ddd
+    padding: .6em
+  ul, ol
+    margin-left: 1.35em
+  code
+    margin: .2em
+    border: 1px solid #ddd
+    padding: 0 .2em
+  pre
+    code
+      border: none
+    &.terminal
+      border: 1px solid #000
+      color: #FFF
