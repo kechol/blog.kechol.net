@@ -11,4 +11,4 @@ permalink: /:year/:month/:day/:title
 safe: false
 
 # Build
-exclude: ['README.md']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 's3_website.yml']
