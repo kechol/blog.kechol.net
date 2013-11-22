@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AngularJSを始めるための英語リソース
+title:  AngularJSを始めるためのリソース
 date:   2013-11-22 20:44:00
 categories: javascript angularjs
 ---
