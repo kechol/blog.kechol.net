@@ -15,7 +15,6 @@ module Jekyll
 
     def convert(content)
       begin
-        puts "Performing Sass Conversion."
         engine = Sass::Engine.new(content, :syntax => :sass, :load_paths => ["./css/"], :style => :compressed)
         engine.render
       rescue StandardError => e
