@@ -13,7 +13,6 @@ categories: html5
 というわけで今日は、HTML5でネットワーク状態をうまく扱うためのAPIをご紹介します。
 
 
-
 ## Application Cache
 
 まずは定番の Application Cache です。AppCache とも言われたりします。
@@ -105,7 +104,6 @@ if(navigator.onLine) {
 }
 {% endhighlight %}
 
-&nbsp;
 
 ### オンライン/オフラインになった時にcallback
 
@@ -160,8 +158,6 @@ if(navigator.connection.metered) { // online
 }
 {% endhighlight %}
 
-&nbsp;
-
 
 ### ネットワーク状態の変化を監視
 
@@ -174,8 +170,6 @@ var updateConnection = function() {
 };
 conn.addEventListener('change', updateConnection);
 {% endhighlight %}
-
-&nbsp;
 
 
 ### 参考資料
