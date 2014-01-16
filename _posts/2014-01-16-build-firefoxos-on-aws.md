@@ -46,10 +46,11 @@ AMIは Ubuntu Server 12.04.3 LTS の64bit(`ami-a73264ce`) を使います。(公
 
 
 B2Gを`git clone`してきたら、ビルドの準備のためのスクリプトを走らせます。
+`config.sh`の引数はデバイス名です。
 
 {% highlight bash %}
 aws:ubuntu $ cd B2G
-aws:ubuntu $ BRANCH=v1.3 ./config.sh
+aws:ubuntu $ BRANCH=v1.3 ./config.sh inari
 {% endhighlight %}
 
 この`config.sh`は`gonk`や`gecko`など、OSのソースをひたすら`git clone`してくるものです。ソースが大量にあるのでとても時間がかかります。SSHを繋いでおけないと思うので、`tmux`で detach などするとよいです。
